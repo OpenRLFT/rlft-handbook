@@ -3,9 +3,15 @@
 
 format: jb-book
 root: index
-parts:
-  - caption: Instruction following
+parts:  
+  - caption: Instruction Following 
     chapters:
     - file: chapters/if/intro
-    - file: chapters/if/rlvr
+    - file: chapters/if/preference/intro
+      sections:
+      - file: chapters/if/preference/dpo
+    - file: chapters/if/reward/intro
+      sections:
+      - file: chapters/if/reward/grpo/trl
+      - file: chapters/if/reward/grpo/verl
     - file: chapters/if/references
