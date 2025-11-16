@@ -28,3 +28,16 @@ parts:
       - file: chapters/cp/reward/grpo/trl
       - file: chapters/cp/reward/grpo/verl
     - file: chapters/cp/references
+  - caption: Mathematical Problem Solving
+    chapters:
+    - file: chapters/mp/intro
+    - file: chapters/mp/preference/intro
+      sections:
+      - file: chapters/mp/preference/dpo
+    - file: chapters/mp/reward/intro
+      sections:
+      - file: chapters/mp/reward/ppo/trl
+      - file: chapters/mp/reward/ppo/verl
+      - file: chapters/mp/reward/grpo/trl
+      - file: chapters/mp/reward/grpo/verl
+    - file: chapters/mp/references
